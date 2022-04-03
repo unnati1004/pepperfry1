@@ -1,0 +1,241 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.navbar-div {
+  width: 100%;
+  margin: 0 0 1% 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1% 2.5%;
+  box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+}
+.navbar-div > div {
+  flex: 1 2 auto;
+}
+.navbar-div > div:nth-child(1) img {
+  width: 25%;
+}
+
+.cart-products {
+  display: flex;
+  width: 70%;
+  margin: auto;
+  gap: 5%;
+}
+.cart-item {
+  width: 65%;
+  /* height: 60vh; */
+  /* border: 1px solid red; */
+}
+.content-div {
+  line-height: 2;
+}
+.span {
+  font-size: 1.5rem;
+}
+.span-color {
+  color: chocolate;
+}
+.product-details {
+  display: flex;
+  gap: 10%;
+  margin: 5% 0 3% 0;
+  font-family: "Mier demi" -500;
+
+  font-size: 18px;
+  color: #464545;
+}
+/* .product-details > div {
+    border: 1px solid red;
+  } */
+.img-div {
+  width: 7vmax;
+}
+.img-div > img {
+  width: 100%;
+}
+.edit {
+  color: chocolate;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 2;
+}
+
+.price-div {
+  width: 30%;
+  /* height: 60vh; */
+  /* border: 1px solid blue; */
+  line-height: 2;
+  margin-left:5%;
+}
+.price-div > p {
+  color: #0f0c0c;
+  font-size: 20px;
+}
+.price-div-list {
+  display: flex;
+  justify-content: space-between;
+  font-size: 20px;
+  color: #8f8a8a;
+}
+.total-price {
+  display: flex;
+  justify-content: space-between;
+  color: #0f0c0c;
+  font-size: 20px;
+}
+.continue-btn {
+  font-size: 30px;
+  width: 100%;
+  border: none;
+  background-color: chocolate;
+  color: white;
+  padding: 4%;
+  border-radius: 5px;
+  margin: 10px auto;
+}
+.btn-img-div {
+  width: 100%;
+}
+.btn-img-div > img {
+  width: 100%;
+}
+
+#payment_head {
+  color: rgb(51, 51, 51);
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 24px;
+  margin-top: 3%;
+  margin-left: 15%;
+}
+
+#cod_section {
+  display: flex;
+  flex-direction: row;
+  background-color: rgb(231, 238, 255);
+  margin-left: 15%;
+  margin-top: 5%;
+  padding: 15px;
+  width: 60%;
+}
+
+.payment_logo {
+  width: 30px;
+  height: 30px;
+}
+#payment_head {
+  color: rgb(51, 51, 51);
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 24px;
+  margin-top: 3%;
+  margin-left: 15%;
+}
+
+#cod_section {
+  display: flex;
+  flex-direction: row;
+  background-color: rgb(231, 238, 255);
+  margin-left: 15%;
+  margin-top: 5%;
+  padding: 15px;
+  width: 60%;
+}
+
+.payment_logo {
+  width: 30px;
+  height: 30px;
+}
+
+.payment_text {
+  font-size: 20px;
+  font-weight: 500;
+  letter-spacing: 0.7px;
+}
+
+#paymentlogo_margin {
+  margin-left: 45%;
+}
+
+#reselling_section {
+  width: 60%;
+  margin-top: 5%;
+  background-color: rgb(255, 255, 255);
+  border-radius: 8px;
+  border: 1px solid rgb(190, 189, 189);
+  margin-left: 15%;
+  padding: 20px 20px;
+  margin-left: 45%;
+}
+
+#reselling_section {
+  width: 60%;
+  margin-top: 5%;
+  background-color: rgb(255, 255, 255);
+  border-radius: 8px;
+  border: 1px solid rgb(190, 189, 189);
+  margin-left: 15%;
+  padding: 20px 20px;
+}
+
+#reselling_head {
+  color: rgb(51, 51, 51);
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 28px;
+}
+
+#reselling_text {
+  color: rgb(153, 153, 153);
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  margin-top: 2%;
+}
+
+#reselling_section_right {
+  display: flex;
+  flex-direction: row;
+  margin-left: 70%;
+  margin-top: -10%;
+  display: flex;
+  flex-direction: row;
+  margin-left: 70%;
+  margin-top: -10%;
+}
+
+.reselling_boolean_active {
+  color: chocolate;
+  width: 62px;
+  height: 42px;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  cursor: pointer;
+  border-radius: 20px;
+  border: 1px solid chocolate;
+  background: rgb(253, 233, 242);
+  padding: 8px 10px;
+  margin: 6px 0px 6px 8px;
+}
+
+.reselling_boolean {
+  color: chocolate;
+  width: 62px;
+  height: 42px;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  cursor: pointer;
+  border-radius: 20px;
+  border: 1px solid rgb(240, 240, 240);
+  background: rgb(249, 249, 249);
+  padding: 8px 10px;
+  margin: 6px 0px 6px 8px;
+}

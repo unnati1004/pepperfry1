@@ -1,0 +1,248 @@
+.cart-head{
+    display: grid;
+    /* border: 1px solid red; */
+    grid-template-columns: 40% 40%;
+    grid-template-rows: 70px;
+    padding-left: 10%;
+    padding-right: 10%;
+    grid-gap: 20px;
+    border-bottom: 1px solid lightgrey;
+}
+
+.cart-head>div{
+    border: 1px solid transparent;   
+}
+
+ img {
+    width: 40%;
+    height: 40%;
+    margin-top: 5%;
+    
+   
+}
+
+.cart-head div:nth-child(2) span{
+    color: orangered;
+    
+}
+.cart-head div:nth-child(2){
+    margin-top: 5%;
+}
+.cart-head div:nth-child(2) i{
+    color: orangered;
+}
+
+
+
+
+
+
+.cart-items{
+    /* border: 1px solid red; */
+    text-align: left;
+    padding-left: 10%;
+
+}
+.cart-items h3 {
+    font-size: 20px;
+    font-weight: 400;
+
+
+}
+.cart-items span{
+    font-size: 15px;
+    color: rgb(117, 114, 114);
+    font-weight: 500;
+}
+.add-items{
+    display: grid;
+    grid-template-columns: 60% 30%;
+    grid-template-rows: 600px;
+    /* border: 1px solid blue; */
+    padding-left: 10%;
+    grid-gap: 20px;
+
+}
+.add-items>div{
+    border: 1px solid transparent;
+    
+    
+}
+
+.inner{
+    display: grid;
+    grid-template-rows: 10% 90%;
+    grid-template-rows: 50px;
+
+    
+}
+.inner>div{
+    border: 1px solid transparent;
+   
+}
+
+.outer{
+    display: grid;
+    grid-template-columns: 60% 30%;
+    background-color: rgb(248, 246, 246);
+
+}
+.outer div{
+    /* border: 1px solid rgb(51, 255, 0); */
+    margin-top: 2%;
+}
+
+.outer div span{
+    color: gray;
+    margin-top: 2%;
+    font-size: 17px;
+}
+
+.outer div input {
+    width: 80px;
+    padding: 10px;
+
+}
+.outer div button{
+    width: 50px;
+    padding: 10px;
+    background-color: #111;
+    color: #fff;
+}
+.outer div i{
+    
+    color: gray;
+    font-size: 15px;
+}
+
+.Items{
+    display: grid;
+    grid-template-columns: 22% 30% 20% 20% ;
+    grid-gap: 10px;
+}
+
+.Items .product-img img{
+    width: 100px;
+    height: 100px;
+
+
+}
+.Items .title h2{
+    font-size: 14px;
+    text-align: left;
+}
+
+.Items .title p{
+    font-size: 12px;
+    text-align: left;
+    color: orangered;
+    font-weight: 500;
+}
+
+.Items .add-minus input{
+    width: 14px;
+    padding: 10px;
+}
+
+.add-minus i{
+    font-size: 10px;
+    margin: 7px;
+    color: gray;
+
+}
+
+.add-minus h3{
+    color: orangered;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.trash i {
+    font-size: 15px;
+    color: gray;
+    margin: 5px;
+}
+
+.login{
+    display: grid;
+    grid-template-rows: 15% 8% 40% 30%;
+    grid-gap: 10px;
+}
+.login>div{
+    border: 1px solid lightgrey;
+}
+
+.login div p{
+    text-align: left;
+    line-height: 1;
+    padding-left: 2%;
+}
+
+.login>div h4{
+    text-align: left;
+    padding-left: 2%;
+
+}
+
+
+.login div:nth-child(1) p:nth-child(1){
+    font-weight: 600;
+    font-size: 18px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.login div:nth-child(1) p:nth-child(2){
+   color: rgb(196, 191, 191);
+   font-size: 14px;
+   
+}
+
+.input {
+    width: 94%;
+    padding: 10px;
+    border: 0;
+
+}
+
+.login div:nth-child(3) p{
+    color: rgb(107, 105, 105);
+    font-size: 12px;
+ }
+
+ .login div:nth-child(3) p:nth-child(4){
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 12px;
+ }
+ .login div:nth-child(3) p:nth-child(2){
+   color: darkgreen;
+ }
+
+ .login div:nth-child(3) h4{
+    color: rgb(107, 105, 105);
+
+ }
+
+ .login div:nth-child(4) span{
+     color: gray;
+     font-size: 13px;
+     
+ }
+ .login div:nth-child(4) button{
+     width: 360px;
+     padding: 13px;
+     margin-top: 20px;
+     background-color: orangered;
+     color: white;
+     border: 0;
+     font-size: 17px;
+     font-weight: 600;
+ }
+
+
+ 
+
+
+
+
+
+  

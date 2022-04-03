@@ -1,0 +1,246 @@
+.bill{
+    /* border: 1px solid red; */
+    display: grid;
+    grid-template-columns: 30% 40%;
+    grid-template-rows: 70px;
+    grid-gap: 20px;
+    padding-left: 10%;
+    padding-right: 10%;
+    border-bottom: 1px solid grey;
+
+}
+.bill div{
+    border: 1px solid transparent;
+    
+}
+.bill div:nth-child(2){
+    margin-top: 3%;
+}
+
+.bill div:nth-child(2) span{
+    color: orangered;
+
+}
+
+.bill div:nth-child(2) i{
+    color: orangered;
+}
+
+.order{
+     /* border: 1px solid red;  */
+    display: grid;
+    grid-template-columns: 60% 30%;
+    grid-template-rows: 740px;
+    grid-gap: 15px;
+    padding-left: 10%;
+    margin-top: 15px;
+    
+}
+
+.order div{
+    border: 1px solid lightgray;
+}
+
+.order div:nth-child(2){
+    height: 230px;
+}
+
+.summ{
+    display: grid;
+    grid-template-rows: 6% 25% 50%;
+    grid-gap: 2px;
+
+}
+.summ div{
+    border: 1px solid transparent;
+   
+}
+
+.ord{
+    background-color: rgb(248, 246, 246);
+}
+
+
+
+
+
+.summ div p{
+    text-align: left;
+    padding-left: 1%;
+}
+
+.shipp{
+    display: grid;
+    grid-gap: 5px;
+    grid-template-rows: 20% 80%;
+}
+.shipp div{
+    border: 1px solid transparent;
+}
+
+.det{
+    background-color:rgb(248, 246, 246) ;
+}
+
+
+.email{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    
+    background-color: none;
+    grid-gap: 80px;
+}
+
+.email div{
+    border: 1px solid transparent;
+}
+
+
+.text{
+    width: 220px;
+    padding: 10px;
+    margin-top: 30px;
+}
+
+.check{
+    margin-top: 20px;
+    margin-left: 125px;
+    height: 25px;
+    width: 25px;
+}
+.id{
+    padding-left: 2%;
+    margin: 25px;
+    font-size: 14px;
+    color: gray;
+}
+.pass{
+  text-align:center;
+}
+
+.in{
+    width: 80px;
+    padding: 5px;
+    margin:5px;
+    margin-top: 30px;
+    background-color: white;
+    border: 0;
+    border: 1px solid lightgray;
+
+}
+
+.inn{
+    width: 80px;
+    padding: 5px;
+    background-color: navy;
+    color: white;
+    margin: 8px;
+    border: 0;
+    border: 1px solid grey;
+}
+
+.innn{
+    width: 25px;
+    padding: 3px;
+    border-radius: 50%;
+    border: 0;
+    background-color: white;
+    border: 1px solid grey;
+}
+.p{
+    font-size: 13px;
+    text-align: justify;
+    margin-left: 1px;
+    color: rgb(182, 178, 178);
+    font-weight: 500;
+}
+
+
+
+.add p {
+    font-size: 15px;
+    font-weight: 600;
+    padding-left: 2%;
+
+
+}
+.spp{
+    color: white;
+}
+
+.name{
+    width: 600px;
+    padding: 12px;
+    border: 1px solid gray;
+    border-radius: 3px;
+    
+
+}
+
+.namme{
+    width: 585px;
+    padding: 20px;
+    border: 1px solid gray;
+    border-radius: 3px;
+    
+    
+}
+
+.label{
+    color: grey;
+    font-weight: 400;
+    padding-left: 2%;
+}
+
+.city{
+    width: 298px;
+    padding: 12px;
+    margin: 5px;
+    border: 1px solid gray;
+    border-radius: 3px;
+   
+}
+
+.select{
+    width: 298px;
+    padding: 12px;
+    border: 1px solid gray;
+    border-radius: 3px;
+    
+}
+
+.namee{
+    width: 625px;
+    padding: 12px;
+    text-align: left;
+    background-color: rgb(248,246,246);
+    border: 0;
+    border: 1px solid grey;
+    border: 1px solid gray;
+    border-radius: 3px;
+    
+}
+
+.save{
+    width: 250px;
+    padding: 14px;
+    background-color: orangered;
+    color: white;
+    margin-left: 130px;
+    border: 0;
+    font-weight: 300;
+    border-radius: 3px;
+}
+
+.total p{
+    text-align: left;
+    font-size: 12px;
+    padding-left: 2%;
+
+}
+
+.total h4{
+    text-align: left;
+    font-size: 15px;
+    padding-left: 2%;
+}

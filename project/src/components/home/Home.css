@@ -1,0 +1,105 @@
+#upperdiv{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    height: 60vh;
+    margin: auto;
+    /* border: 1px solid red; */
+}
+#large{
+    width: 74.4%;
+    height: 60vh;
+    /* border: 1px solid green; */
+}
+#small{
+    width: 25%;
+    height: 60vh;
+    /* border: 1px solid blue; */
+}
+.imgtop{
+    width: 100%;
+    height: 100%;
+}
+
+.img1{
+    width: 100%;
+    height: 95%;
+}
+img{
+    width: 100%;
+    height: 100%;
+}
+
+#div2{
+    width: 90%;
+    margin: auto;
+    margin-top: 3vh;
+    height: 14vh;
+    /* border: 1px solid red; */
+}
+.head{
+    margin-left: 5%;
+  
+}
+#box1{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    height: 32vh;
+    /* border: 1px solid red; */
+}
+.box11{
+    width: 24.5%;
+    text-align:initial ;
+ /* border: 1px solid red; */
+}
+
+#box2{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    height: 60vh;
+    /* border: 1px solid red; */
+}
+.box21{
+    width: 32.8%;
+ /* border: 1px solid red; */
+}
+#box23{
+    display: grid;
+    grid-gap: 1vh;
+    height: 60vh;
+    /* border: 1px solid red; */
+    grid-template-columns: repeat(2,49%);
+}
+
+#box3{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    height: 40vh;
+    /* border: 1px solid red; */
+}
+.p1{
+    color: black;
+    font-weight: 500;
+}
+.price{
+    font-size: 13px;
+}
+#box4{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    margin-top: 2vh;
+    height: 62vh;
+    /* border: 1px solid red; */
+}
+.box41{
+    width: 49.6%;
+ /* border: 1px solid red; */
+}

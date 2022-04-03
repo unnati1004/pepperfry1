@@ -1,0 +1,113 @@
+@font-face {
+    font-family:  manrope_thin;
+    src: url(../../font/manrope.thin.otf);
+  }
+
+.main{
+    display: flex;
+    /* border: 1px solid teal; */
+    column-gap: 30px;
+    /* height: 70%; */
+    border-top: 0.5px solid rgb(236, 231, 231);
+    margin: 1%;
+    padding: 2%;
+}
+.image{
+    /* border: 1px solid red; */
+    padding: 3%;
+}
+.details{
+    /* border: 1px solid red; */
+    padding: 2%;
+    width: 60%;
+    height:0% ;
+    /* display: flex; */
+    /* flex-direction: column; */
+}
+.details>div{
+    display: flex;
+}
+.font1{
+    font-family:manrope_thin ;
+    Color:grey
+}
+.made{
+    color: #ff7035;
+}
+.icon {
+    color: white;
+    border:black;
+    font-size: 100px;
+    /* position: absolute; */
+    top: 20%;
+    /* right: 5%; */
+    left: 70%;
+    /* transform: translate(-50%, -50%); */
+    /* -ms-transform: translate(-50%, -50%); */
+    /* text-align: center; */
+  }
+  .cart{
+      padding: 2%;
+      margin: 1%;
+      /* font-weight: bold; */
+      width: 200px;
+  }
+  .port{
+      display: flex;
+  }
+  .rating{
+      display: flex;
+      /* border: 1px solid green; */
+      align-items: center;
+      justify-content: space-between;
+      width: 58%;
+  }
+  #buy{
+      background-color: #ff7035;
+      color: white;
+      border: transparent;
+  }
+  #add{
+      background-color: white;
+      color: black;
+  }
+ 
+  .low{
+      /* border: 1px solid red; */
+      display: flex;
+       padding-left: 3%;
+       padding-right: 3%;
+  }
+  .low1{
+      padding: 0.25%;
+  }
+  .heart{
+      /* border: 1px solid blue; */
+      justify-content: space-around;
+  }
+  .main_div{
+    display: flex;
+  }
+  .dum{
+      display: flex;
+      justify-content: space-between;
+      padding-left: 4%;
+      padding-right: 4%;
+      border-top: 5px solid rgb(224, 223, 223);
+  }
+  .view{
+      color: #ff7035;
+      font-family: manrope_thin;
+  }
+  .describe>div{
+      justify-content: space-between;
+  }
+  .img2{
+      width: 99%;
+  }
+  .img_div{
+        width: 100%;
+  }
+  .price1{
+      color: #ff7035;
+  }

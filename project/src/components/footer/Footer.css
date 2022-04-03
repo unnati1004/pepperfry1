@@ -1,0 +1,130 @@
+.footer{
+    width:100%;
+    height: 900px;
+    background-color: rgb(243,245,247);
+   margin-top: 10vh;
+}
+
+.first{
+    width:100%;
+    height: 400px;
+    background-color: rgb(243,245,247);
+    
+    display: flex;
+}
+.first>div{
+    width: 18%;
+    height: 100%;
+    
+    margin: auto;
+    text-align: left;
+}
+.first>div>p{
+    color: darkslategray;
+    cursor: pointer;
+}
+.first>div>h3{
+    font-weight:500;
+}
+.second{
+    width:100%;
+    height: 240px;
+    background-color: rgb(243,245,247);
+    
+    display: flex;
+}
+.second>div{
+    width: 26.4%;
+    height: 100%;
+    
+    margin: auto;
+    text-align: left;
+}
+.second>div>p{
+    color: darkslategray;
+    cursor: pointer;
+}
+.second>div>h3{
+    font-weight:500;
+}
+.third{
+    width:93%;
+    height: 140px;
+    background-color: rgb(243,245,247);
+    border-top:1px solid gainsboro;
+    border-bottom:1px solid gainsboro;
+    display: flex;
+    margin: auto;
+}
+.third>div{
+    width:50%;
+    height: 100%;
+    margin: auto;
+    margin-left:100px;
+    text-align: left;
+    
+}
+.third>div:nth-child(1){
+    margin-left:0px;
+}
+.third>div>h3{
+    font-weight:500;
+}
+.fourth{
+    width:100%;
+   
+    background-color: rgb(243,245,247);
+    
+    display: flex;
+    margin-top:20px;
+}
+.fourth>div{
+    height: 100%;
+    
+    text-align: left;
+    display: flex;
+    margin-left:52px;
+}
+.fourth>div>p{
+    color: darkslategray;
+    cursor: pointer;
+}
+.fourth>div:nth-child(2){
+    margin-left: 545px;
+}
+.fourth>div>P{
+    margin-left:20px;
+    cursor: pointer;
+}
+.fourth>div>p:nth-child(1){
+    margin-left: 0px;
+}
+.icons1{
+    display: flex;
+}
+.icons2{
+    display: flex;
+}
+.icons1 img{
+    margin-left:15px;
+    cursor: pointer;
+}
+.icons1 img:nth-child(1){
+    margin-left: 0px;
+}
+.icons2>img{
+    margin-left:25px;
+    cursor: pointer;
+}
+.icons2>img:nth-child(1){
+    margin-left: 0px;
+}
+.app h3{
+    margin-left:5px;
+}
+.app img{
+    width:100%;
+    height: 20%;
+    margin-top:10px;
+    cursor: pointer;
+}

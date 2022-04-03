@@ -1,0 +1,75 @@
+.container{
+  width:700px;
+  height: 500px;
+  margin:auto;
+  margin-top:100px;
+  display: flex;
+}
+.login-image{
+  width:42%;
+  height: 100%;
+}
+.login-image>img{
+  width:100%;
+  height: 100%;
+}
+.login-content{
+  width:58%;
+  height:100%;
+}
+.login-form{
+  background-color: rgb(248,248,248);
+  height:53%;
+  text-align: center;
+ 
+}
+.login-form>p{
+  text-align: left;
+  margin-left: 61px;
+  color: chocolate;
+  font-size:12px;
+  cursor: pointer;
+}
+
+#login{
+  width:70%;
+  height:40px;
+  margin-top:40px;
+  color: white;
+  background-color: chocolate;
+ border: none;
+  
+}
+.newdiv{
+  margin-top:30%;
+}
+.gotologin{
+  width:70%;
+  height:40px;
+  margin: auto;
+ 
+}
+.gotologin>button{
+  width: 100%;
+  height:100%;
+  border: 1px solid gainsboro;
+  background-color: white;
+  color: chocolate;
+  cursor: pointer;
+}
+.loginbyg{
+  width: 70%;
+  margin: auto;
+ 
+}
+.loginbyg>p{
+  color:darkslateblue;
+  font-size:12px;
+  margin-top:20px;
+  cursor: pointer;
+  text-align: center;
+}
+#standard-basic{
+  width:37vh;
+  margin-top:20px;
+}
