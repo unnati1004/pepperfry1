@@ -87,7 +87,7 @@ export const Navbar = () => {
           <p className="texthover" id="eth" onMouseEnter={(e) => {
               setDrop(true)
             displayNone(e)
-          }} onMouseLeave={() => setDrop(true)}>Furniture</p>
+          }} onMouseLeave={() => setDrop(false)}>Furniture</p>
           <p className="texthover" onMouseEnter={() => setDrop1(true)} onMouseLeave={() => setDrop1(false)}>Sofas & Recliners</p>
           <p className="texthover" onMouseEnter={() => setDrop2(true)} onMouseLeave={() => setDrop2(false)}>Cabinetry</p>
           <p className="texthover" onMouseEnter={() => setDrop3(true)} onMouseLeave={() => setDrop3(false)}>Beds</p>
@@ -99,8 +99,8 @@ export const Navbar = () => {
           <p className="texthover" id="elec" onMouseEnter={() => setDrop9(true)} onMouseLeave={() => setDrop9(false)}>Modular</p>
           </div>
       </div>
-      {(Drop==true)?(<div className="down">
-       <div className="dowp">
+      {(Drop==true)?(<div className="down"onMouseEnter={() => setDrop(true)} >
+       <div className="dowp" onMouseEnter={() => setDrop(true)} onMouseLeave={() => setDrop(false)}>
            <p>Sofas and Recliners</p>
            <p>Seating</p>
            <p>Chairs</p>
@@ -116,7 +116,7 @@ export const Navbar = () => {
            <p>Bar Furniture</p>
            <p>Furniture & Home Services</p>
        </div>
-       <div id="divcol" className="dowp1">
+       <div id="divcol" className="dowp1" onMouseEnter={() => setDrop(true)} onMouseLeave={() => setDrop(false)}>
            <p>Arm Chairs</p>
            <p>Rocking Chairs</p>
            <Link id="link" to={'/armschair'}><p>Cantilever Chairs</p></Link>
@@ -126,7 +126,7 @@ export const Navbar = () => {
            <p>Dining Chairs</p>
            <p>Office Chairs</p>
        </div>
-       <div className="dowp1">
+       <div className="dowp1" onMouseLeave={() => setDrop(false)}>
            <h3 className="brand">Popular Brands</h3>
            <p>@home</p>
            <p>Amberville</p>
@@ -142,7 +142,7 @@ export const Navbar = () => {
            <p>Woodsworth</p>
            <p>View All Brands </p>
        </div>
-       <div className="dowp2">
+       <div className="dowp2" onMouseLeave={() => setDrop(false)}>
            <p className="lasttext">Alex Daisy</p>
            <p>Bohemiana</p>
            <p>CasaCraft</p>
@@ -157,22 +157,22 @@ export const Navbar = () => {
            <p>Wakefit</p>
            <p>YiPi Online</p>
        </div>
-       <div className="dowpimg">
+       <div className="dowpimg" onMouseLeave={() => setDrop(false)}>
        <img src="https://ii1.pepperfry.com/media/catalog/product/e/r/494x544/erin-seating-stool-navy-blue-colour-by-riance-creations-erin-seating-stool-navy-blue-colour-by-rianc-f0vbd5.jpg" alt="" />
        </div>
       </div>)
 :""}
 
 
-{(Drop1==true)?(<div className="down">
-       <div className="dowp">
+{(Drop1==true)?(<div className="down" onMouseEnter={() => setDrop1(true)} >
+       <div className="dowp" onMouseLeave={() => setDrop1(false)} onMouseEnter={() => setDrop1(true)}>
            <p>By Size</p>
            <p>By Type</p>
            <p>By Style</p>
            <p>By Material</p>
            <p>Sofa Chairs</p>
        </div>
-       <div id="divcol" className="dowp1">
+       <div id="divcol" className="dowp1"onMouseLeave={() => setDrop1(false)}>
            <p>3 Seater Sofas</p>
            <p>2 Seater Sofas</p>
            <Link id="link" to={'/armschair'}><p>1 Seater Sofas</p></Link>
