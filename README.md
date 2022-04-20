@@ -2,7 +2,7 @@
 
 ---
 
-## Pepperfry is an Indian online marketplace for furniture and home décor. The company is headquartered in Mumbai, Maharashtra and operates as a subsidiary of Trendsutra Platform Services Private Limited.
+## Pepperfry is an Indian online marketplace for furniture and home décor. The company is headquartered in Mumbai, Maharashtra.
 
 # Authors
 
