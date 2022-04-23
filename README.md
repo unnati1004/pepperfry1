@@ -26,7 +26,7 @@
 
 Clone this Project
 
-`git pull https://github.com/unnati1004/pepperfry.git`
+`git pull https://github.com/gulashanhashami/pepperfry1.git`
 
 - Now the project is ready just go and visit home page
 
