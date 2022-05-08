@@ -1,9 +1,5 @@
 import { Link } from "react-router-dom";
 import "./billing.css";
-
-
-
-
 const Billing =()=>{
 
     var place = JSON.parse(localStorage.getItem("order"))||[];
