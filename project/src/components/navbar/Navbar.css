@@ -72,14 +72,16 @@
      
       .down {
         width: 90%;
+        height: auto;
         display: flex;
         position: absolute;
         top: 22.5%;
         left: 10px;
         z-index: 100;
         background-color: white;
-        height: 60%;
+        /* height: 60%; */
         margin-left: 5%;
+        /* border: 1px solid red; */
         box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px,
           rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
       }
@@ -98,8 +100,12 @@
         width: 15%;
         font-size: 13.5px;
         color: grey;
+        
         padding-left: 1.5%;
-        /* // border:1px solid grey; */
+        /* border:1px solid grey; */
+      }
+      p{
+        margin-top: 20px;
       }
       .dowp2 {
         width: 15%;
@@ -122,7 +128,7 @@
      .dowpimg1{
       /* margin-left: 1%; */
        width: 70%;
-       height: 70%;
+       height: 55vh;
        /* border:1px solid red; */
      }
      .dowpimg1>img{
