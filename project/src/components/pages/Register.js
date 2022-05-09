@@ -1,44 +1,21 @@
 import React, {useState, useEffect} from 'react';
-// import {useDispatch, useSelector} from 'react-redux';
 import {useHistory, Link,  useNavigate} from 'react-router-dom';
-// import { registerInitiate } from '../redux/actions';
-//import {AiOutlineDown} from 'react-icons/ai';
 import FacebookRoundedIcon from '@mui/icons-material/FacebookRounded';
 import GoogleIcon from '@mui/icons-material/Google';
 import "./Register.css";
 import Pep12 from "./images/pep12.png";
 import TextField from '@mui/material/TextField';
-//import { useNavigation } from '@react-navigation/native';
-
 const Register=()=>{
-
   const [state, setState] = useState({
     displayName: '',
     email:'',
     password:''
    });
    let navigate = useNavigate();
-// const {currentUser} = useSelector((state) => state.user);
-
-// const history = useHistory();
-
-// useEffect(()=>{
-//   if(currentUser){
-//     history.push('/');
-//   }
-// },[currentUser, history]);
-
-
-  //  const dispatch = useDispatch();
-
   const{email, mobile, password, displayName} = state;
 
   const handleSubmit =(e) =>{
     e.preventDefault();
-    // if(password !== passwordConfirm){
-    //   return alert("Passwords don't match");
-    // }
-    // dispatch (registerInitiate(email, mobile, password, displayName));
     setState({email:"", displayName: "", mobile: "", password: ""})
     alert ("You have successfully registered");
     navigate("/")
