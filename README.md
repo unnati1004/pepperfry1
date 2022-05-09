@@ -38,12 +38,12 @@ Clone this Project
 
 > SIGN-UP PAGE
 
-![signuppage](./Image/image1.png)
+![signuppage](./Images/image1.png)
 
 
 > LOGIN PAGE
 
-![loginpage](./Image/image2.png)
+![loginpage](./Images/image2.png)
 
 
 > PRODUCT PAGE
@@ -53,7 +53,7 @@ Clone this Project
 
 > PRODUCT DETAILS PAGE
 
-![productdetailspage](./Image/image3.png)
+![productdetailspage](./Images/image3.png)
 
 
 > CART PAGE
@@ -63,12 +63,12 @@ Clone this Project
 
 > BILLING PAGE
 
-![billingpage](./Image/image4.png)
+![billingpage](./Images/image4.png)
 
 
 > PAYMENT PAGE
 
-![paymentpage](./Image/image5.png)
+![paymentpage](./Images/image5.png)
 
 
 # What did I Learn
