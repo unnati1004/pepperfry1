@@ -5,7 +5,7 @@ export const Home=()=>{
 const [slideData, setSlide]= useState(-1);
 const [slideData1, setSlide1]= useState(-1);
 
-var arr=["https://ii1.pepperfry.com/media/wysiwyg/banners/Promo_Web_2X_28032022_nd.jpg","https://ii2.pepperfry.com/media/wysiwyg/banners/HB-02_2154x1050_04032022.jpg", "https://ii3.pepperfry.com/media/wysiwyg/banners/HB-03_2154x1050_04032022.jpg", "https://ii1.pepperfry.com/media/wysiwyg/banners/HB-04_2154x1050_04032022.jpg"]
+var arr=["https://ii3.pepperfry.com/media/wysiwyg/banners/HB02_2X_22042022.jpg","https://ii2.pepperfry.com/media/wysiwyg/banners/HB-02_2154x1050_04032022.jpg", "https://ii3.pepperfry.com/media/wysiwyg/banners/HB-03_2154x1050_04032022.jpg", "https://ii1.pepperfry.com/media/wysiwyg/banners/HB-04_2154x1050_04032022.jpg"]
 var arr1=["https://ii3.pepperfry.com/media/catalog/product/a/u/494x544/aurora-king-bed-in-natural-finish---casacraft-by-pepperfry-aurora-king-bed-in-natural-finish---casac-t98qd8.jpg", "https://ii3.pepperfry.com/media/catalog/product/c/o/494x544/cobain-6-seater-dinning-table-set-in-natural-finish---casacraft-by-pepperfry-cobain-6-seater-dinning-mp3f8e.jpg", "https://ii1.pepperfry.com/media/catalog/product/l/i/494x544/liliana-coffee-table-in-natural-finish---casacraft-by-pepperfry-liliana-coffee-table-in-natural-fini-l910m4.jpg", "https://ii1.pepperfry.com/media/catalog/product/m/a/494x544/manfredo-2-seater-sofa-in-light-grey-colour-with--natural-finish-manfredo-2-seater-sofa-in-light-gre-ozulie.jpg"]
 useEffect(()=>{
    setInterval(()=>{
