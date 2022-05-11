@@ -29,6 +29,7 @@ Clone this Project
 `git pull https://github.com/gulashanhashami/pepperfry1.git`
 
 - Now the project is ready just go and visit home page
+- Live demo: https://pepperfry-unnati1004.vercel.app/
 
 # Screenshots
 
