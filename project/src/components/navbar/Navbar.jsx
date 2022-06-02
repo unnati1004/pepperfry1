@@ -1,16 +1,10 @@
-import { Link , Navigate} from "react-router-dom";
-import styled from "styled-components";
+import { Link} from "react-router-dom";
+// import styled from "styled-components";
 import {useState} from "react";
 import './Navbar.css';
-// import {Product} from "./Product";
 import {Search,PersonOutlineRounded, ShoppingCartOutlined} from "@material-ui/icons";
-// const Navbardiv= styled.div`
-
-// `;
-
 
 export const Navbar = () => {
-
     const [Drop, setDrop]= useState(false);
     const [Drop1, setDrop1]= useState(false);
     const [Drop2, setDrop2]= useState(false);
@@ -23,11 +17,9 @@ export const Navbar = () => {
     const [Drop9, setDrop9]= useState(false);
 
     function displayNone(e){
-        
     }
   return (
     <div id="maind">
-        {/* <Navbardiv> */}
         <div id="topn">
           <p id="ltop1" className="ltop">Shubh Aarambh Sale | Up to 60% Off | Use Code <span style={{color:"red"}}>SHUBH</span></p>
           <p id="ltop2" className="ltop">Extra 20% Cashback On All Orders |<span>T&C Apply </span><Link to={"/signup"}><span style={{color:"red"}}>Sign Up</span></Link></p>
@@ -73,10 +65,9 @@ export const Navbar = () => {
              <img src="https://ii1.pepperfry.com/images/svg/icon-wishlist-21.svg" alt="" />
          </div>
          </Link>
-         <Link to="/cart">
+         <Link to={"/cart"}>
          <div className="cart"> 
              <ShoppingCartOutlined style={{color:"black"}} />
-           
          </div>
          </Link>
          </div>

@@ -4,8 +4,6 @@ import "./Cart.css"
 import Contextcart from "./Contextcart"
 import { reducer } from "./reducer"
 
-
-
  export const CartContext = createContext();
  var product1 = JSON.parse(localStorage.getItem("product"));
 //             item1.push(data);
@@ -24,9 +22,7 @@ console.log(product1);
         return dispatch({
             type:"REMOVE_ITEMS",
             payload:_id,
-
         })
-
     }
 
     const increment = (_id)=>{

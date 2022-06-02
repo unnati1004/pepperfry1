@@ -7,21 +7,8 @@ import { Payment } from "../components/payment/Payment";
 import Register from '../components/pages/Register';
 import {Navbar} from "../components/navbar/Navbar"
 import {Home} from "../components/home/Home"
-// import {useDispatch} from 'react-redux';
-// import {auth} from './firebase';
  import Login from "../components/pages/Login"
 export const AllRoutes = () => {
-//   const dispatch = useDispatch();
- 
-//   useEffect(() => {
-// auth.onAuthStateChanged((authUser) =>{
-//   if(authUser){
-//     dispatch(setUser(authUser));
-//   }else{
-//     dispatch(setUser(null));
-//   }
-// });
-//   }, [dispatch]);
   return (
     <>
       <Navbar/>
@@ -35,7 +22,6 @@ export const AllRoutes = () => {
         <Route exact path="/register" element={<Register/>}/>
         <Route exact path="/login" element={<Login/>}/>
       </Routes>
-      {/* <Login/> */}
     </>
   );
 };

@@ -8,8 +8,6 @@ const Items = ({_id,title,creator,price,image,quantity}) =>{
 
     return (
         <>
-       
-        
         <div className="Items">
            <div className="product-img">
                <img src={image} alt="err"/>

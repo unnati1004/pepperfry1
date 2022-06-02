@@ -9,7 +9,6 @@ import Rating from '@mui/material/Rating';
 import StarIcon from '@material-ui/icons/Stars.js';
 import Footer from "../footer/Footer";
 const label = { inputProps: { 'aria-label': 'Checkbox demo' } };
-// import styled from "styled-components";
 export const ProductDetail = () => {
     const value = 3.5;
     const [data1, setData1] = useState([]);
@@ -18,7 +17,6 @@ export const ProductDetail = () => {
     useEffect(() => {
         axios.get(`https://pepperfrybackend.herokuapp.com/armschair/${id}`).then((e) => {
             setData(e.data);
-            // console.log(e.data);
         });
     }, [id]);
     useEffect(() => {
@@ -28,8 +26,7 @@ export const ProductDetail = () => {
         });
     }, []);
     const Handleitem = () => {
-        // console.log(id1);
-        axios.get(`https://pepperfrybackend.herokuapp.com/product/${id}`).then(({ data }) => {
+        axios.get(`https://pepperfrybackend.herokuapp.com/armschair/${id}`).then(({ data }) => {
             let item1 = JSON.parse(localStorage.getItem("product")) || [];
             item1.push(data);
             localStorage.setItem("product", JSON.stringify(item1))
@@ -103,7 +100,6 @@ export const ProductDetail = () => {
                 </div>
             <div className="low">
                 {
-                    
                     data1.map((e) => {
                         return <div key={String(e.id)} className="low1">
                             <img className="img_div"  src={e.image} alt="" />
